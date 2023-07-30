@@ -1,6 +1,6 @@
 # QA-bot
 
-- Performs Q&A on upto 150+ documents by running inference on Hugging Face's open source google/flan-t5-xxl model.
+- Performs Q&A on any number of documents by running inference on Hugging Face's open source google/flan-t5-xxl model.
 
 - Additonally, the model (sentence-transformers/all-mpnet-base-v2) which is again, open source on Hugging Face, is used to generate embeddings as well as find sentences/paragraphs in the document with similiar embeddings to the question, to give as input to the LLM.
 
